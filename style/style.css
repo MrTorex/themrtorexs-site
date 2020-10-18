@@ -1,3 +1,63 @@
 *{
-	
+	font-family: 'Oswald', sans-serif;
+}
+body{
+	background: #5D5D5D;
+}
+header{
+	font-size: 24pt;
+	background: #494949;
+	border-bottom: #2F2F2F 10px solid;
+}
+footer{
+	font-size: 24pt;
+	background: #494949;
+	border-top: #2F2F2F 10px solid;
+	padding: 20px;
+}
+@media(max-width: 450px){
+	header{
+		font-size: 16pt;
+	}
+}
+.nav-but{
+	margin: 30px;
+}
+.nav-but a{
+	color: white;
+	text-decoration: none;
+}
+.nav-but a:hover{
+	color: #D7D7D7;
+}
+.text-main{
+	width: 30%;
+	color: white;
+	font-size: 60pt;
+	margin: 70px auto 30px auto;
+	text-align: center;
+}
+.text-main-under{
+	color: white;
+	font-size: 40pt;
+	margin: 0px auto;
+	text-align: center;
+}
+.hr{
+	margin: 70px auto;
+	width: 70%;
+	border-bottom: #2F2F2F 10px solid;
+}
+.text{
+	color: white;
+	font-size: 40pt;
+	margin: 20px auto;
+	text-align: center;
+}
+.row{
+	width: 100%;
+}
+.img-main{
+	margin: 0px auto;
+	width: 750px;
 }
